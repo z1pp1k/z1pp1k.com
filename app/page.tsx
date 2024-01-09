@@ -7,7 +7,7 @@ import { BsDiscord, BsSpotify } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 export default function Page() {
   return (
-    <main className="min-h-screen bg-gradient-to-tr from-zinc-300 to-zinc-400 dark:from-zinc-950 dark:to-zinc-900">
+    <main className="min-h-screen">
       <div className="mx-auto max-w-screen-md">
         <Navbar></Navbar>
         <header className="mt-12 px-6">

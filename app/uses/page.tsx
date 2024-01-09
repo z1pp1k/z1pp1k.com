@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-gradient-to-tr from-zinc-300 to-zinc-400 dark:from-zinc-950 dark:to-zinc-900">
+    <main className="min-h-screen">
       <div className="mx-auto max-w-screen-md">
         <Navbar></Navbar>
         <div className="my-10 space-y-10 px-6 text-black dark:text-white">

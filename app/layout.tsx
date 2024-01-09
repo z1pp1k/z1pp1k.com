@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={font.className}>
-      <body className="bg-gradient-to-tr from-zinc-300 to-zinc-400 dark:from-zinc-950 dark:to-zinc-900">
+      <body className="bg-white dark:bg-gradient-to-tr dark:from-zinc-950 dark:to-zinc-900">
         {children}
       </body>
     </html>
